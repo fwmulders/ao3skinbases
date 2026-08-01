@@ -613,3 +613,13 @@ p.kudos {
   filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
 }
 
+dl.index dd,
+dl.subscription dd {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+
