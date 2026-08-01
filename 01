@@ -558,3 +558,102 @@ p.kudos {
   font-weight: 500 !important;
 }
 
+#main form dl dt {
+  border-bottom: 1px solid #8a8a8a !important;
+  color: #8a8a8a !important;
+}
+
+.required.notice,
+.notice.required {
+  background-color: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
+  color: #e6e6e6 !important;
+}
+
+.tox .tox-editor-header,
+.tox .tox-toolbar,
+.tox .tox-toolbarprimary,
+.tox .tox-toolbargroup {
+  background-color: #1c1c1c !important;
+}
+
+.tox .tox-tbtn {
+  background-color: #1c1c1c !important;
+  border: 1px solid #8a8a8a !important;
+  border-radius: 4px !important;
+}
+
+.tox .tox-tbtn svg {
+  fill: #e6e6e6 !important;
+}
+
+.tox .tox-tbtn span {
+  color: #e6e6e6 !important;
+}
+
+.tox .tox-tbtn:hover {
+  background-color: #ffcef8 !important; 
+}
+.tox .tox-tbtn:hover svg {
+  fill: #1c1c1c !important;
+}
+
+#main ul.index,
+#main ol.index,
+#main .listbox .index {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+dl.index dd,
+dl.subscription dd {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+p.caution,
+p.notice,
+.caution,
+.notice {
+  background-color: #1a1a1a !important;
+  color: #e6e6e6 !important;
+  border: 1px solid #8a8a8a !important;
+  border-radius: 5px !important;
+  padding: 10px 15px !important;
+}
+
+p.caution strong,
+p.notice strong,
+.caution strong,
+.notice strong {
+  color: #8a8a8a !important;
+}
+
+ul.expandable.secondary,
+.expandable.secondary {
+  background-color: transparent !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+  box-shadow: none !important;
+}
+
+ul.expandable.secondary li a {
+  color: #e6e6e6 !important;
+  outline: none !important;
+}
+
+ul.expandable.secondary li a:hover,
+ul.expandable.secondary li a:focus {
+  color: #ffcef8 !important; 
+  background: transparent !important;
+  outline: none !important;
+}
+
+
