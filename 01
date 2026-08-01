@@ -397,3 +397,164 @@ span.submit.actions input.button {
 }
 
 
+.listbox,
+.listbox fieldset {
+  background-color: transparent !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 10px !important;
+  padding: 15px !important;
+  box-shadow: none !important;
+}
+
+ol.work.index {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.filters,
+form#work-filters,
+form#bookmark-filters {
+  background-color: #1c1c1c !important;
+  border: 1px solid #8a8a8a !important; 
+}
+
+.filters fieldset legend {
+  color: #ffcef8 !important;
+  font-weight: bold !important;
+}
+
+.filters .heading,
+.filters h4.heading {
+  color: #ffcef8 !important;
+  background-color: transparent !important;
+}
+
+/* Abas de filtro retráteis */
+.filters dt {
+  background-color: #262626 !important;
+  color: #e6e6e6 !important;
+  border-bottom: 1px solid #8a8a8a !important;
+}
+
+.filters dt:hover {
+  background-color: #3a3a3a !important;
+}
+
+.filters dt a,
+.filters dt button {
+  color: #ffcef8 !important;
+  background: transparent !important;
+}
+
+.filters dt:hover a,
+.filters dt:hover button {
+  color: #ffffff !important;
+}
+
+/* Área interna do filtro expandido */
+.filters dd {
+  background-color: #1c1c1c !important;
+  color: #e6e6e6 !important;
+}
+
+
+li.message .header,
+li.message .header.module,
+li.comment .header,
+li.comment .header.module,
+li.message.unread .header,
+li.comment.unread .header,
+li.comment .heading,
+li.message .heading,
+li.comment.unread .heading,
+li.message.unread .heading,
+.thread .heading,
+h4.viewed.heading,
+.viewed.heading {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: #e6e6e6 !important; 
+}
+
+.icon {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+svg.icon.kudos-icon {
+  display: none !important;
+}
+
+p.kudos {
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/kudos.png") !important;
+  background-size: 60px !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  padding-left: 70px !important;
+  min-height: 60px !important;
+}
+
+#kudos_submit::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/kudos.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#workskin {
+  border: 30px solid transparent; 
+  border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/raven-wolf-board.png") 25% round;
+  background-color: transparent; 
+  padding: 10px 15px !important; 
+  max-width: 100% !important; 
+  margin: 0 auto;
+}
+
+#workskin .userstuff {
+  padding: 0 !important; 
+  max-width: 100% !important; 
+}
+
+.actions .menu,
+#main .actions .menu,
+.action .menu {
+  background-color: #1c1c1c !important;
+  box-shadow: none !important;
+  border: 1px solid #8a8a8a !important; 
+}
+
+#main form dd input[type="text"],
+#main form dd input[type="password"],
+#main form dd input[type="email"],
+#main form dd select,
+#main form dd textarea,
+.autocomplete .token {
+  border: 1px solid #8a8a8a !important;
+  background-color: #1c1c1c !important;
+  color: #e6e6e6 !important;
+}
+
+#main form dd,
+#main form dd label,
+.autocomplete .added.tag,
+.autocomplete li {
+  color: #e6e6e6 !important;
+}
+
+#main form dd .note,
+#main form dd p.note,
+#main form dd p.character_counter,
+#main form dd .footnote,
+#main form dd p {
+  color: #ffcef8 !important; 
+  font-weight: 500 !important;
+}
+
